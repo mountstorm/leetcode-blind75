@@ -24,41 +24,10 @@ When multiple approaches exist, both solutions are included in the same file wit
 
 ```
 blind-75-leetcode/
-├── 001-contains-duplicate.py
-├── 002-two-sum.py
-├── 003-valid-parentheses.py
-├── ...
-└── 075-word-search-ii.py
-```
-
-## Solution Format
-
-```python
-"""
-Problem: [Problem Name]
-LeetCode #: [Number]
-Difficulty: [Easy/Medium/Hard]
-Pattern: [Core pattern used]
-Time Complexity: O(?)
-Space Complexity: O(?)
-"""
-
-class Solution:
-    def methodName(self, params):
-        # Step-by-step comments explaining the logic
-        pass
-
-# If multiple approaches exist:
-
-class SolutionAlternative:
-    """
-    Alternative approach using [different pattern]
-    Time Complexity: O(?)
-    Space Complexity: O(?)
-    Tradeoff: [Why you might use this instead]
-    """
-    def methodName(self, params):
-        pass
+├── containsDuplicate.py
+├── twoSum.py
+├── validParentheses.py
+└── wordSearch-ii.py
 ```
 
 ## Patterns Learned
