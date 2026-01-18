@@ -17,10 +17,10 @@ class Solution(object):
         seen = set()
         # iterate with num in nums
         for num in nums:
-            # if number is in seen (hashSet), you got the duplicate there
+            # if number is in seen (hashSet), duplicate found
             if num in seen:
                 return True
-        # unless add to the set, for future lookups
+            # otherwise, add to the set for future lookups
             seen.add(num)
         return False
 
