@@ -7,7 +7,7 @@ class Solution(object):
         nums.sort()
         n = len(nums)
 
-        for i in nums:
+        for i in range(n + 1):
             if (nums[i] == nums[i + 1]):
                 return True
         return False
