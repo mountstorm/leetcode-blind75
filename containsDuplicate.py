@@ -6,12 +6,12 @@ class Solution(object):
         # sort the list
         nums.sort()
         n = len(nums)
-        # check using iteration if there adjacent elements are the same
-        for i in range(1, n):
-            if (nums[i] == nums[i - 1]):
+
+        for i in nums:
+            if (nums[i] == nums[i + 1]):
                 return True
         return False
-
+    
     def containsDuplicate2(self, nums: List[int]) -> bool:
         #  hashSet for seen numbers
         seen = set()
