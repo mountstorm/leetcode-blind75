@@ -15,4 +15,3 @@ class Solution:
             right -= 1
         # after comparing successfully, return True
         return True
-    
